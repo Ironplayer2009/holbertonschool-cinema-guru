@@ -1,0 +1,119 @@
+* {
+  box-sizing: border-box;
+}
+
+/* INPUT */
+
+.input-container {
+  width: 100%;
+  margin-bottom: 24px;
+}
+
+.input-header {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin-bottom: 6px;
+}
+
+.input-icon {
+  color: #df4d54;
+  font-size: 15px;
+}
+
+.input-header label {
+  color: #444;
+  font-size: 15px;
+  font-weight: 500;
+}
+
+.input-container input {
+  width: 100%;
+  height: 38px;
+  padding: 0;
+  border: none;
+  border-bottom: 2px solid #d81f26;
+  outline: none;
+  background: transparent;
+  color: #222;
+  font-size: 15px;
+}
+
+.input-container input:focus {
+  border-bottom-color: #ed1c24;
+}
+/* Select */
+
+.select-input-container {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  min-height: 46px;
+  border-bottom: 1px solid #c9141d;
+}
+
+.select-input-container label {
+  margin-right: 6px;
+  color: #333333;
+  font-size: 14px;
+  font-weight: 400;
+}
+
+.select-input-container select {
+  flex: 1;
+  height: 44px;
+  border: 0;
+  outline: 0;
+  background: transparent;
+  color: #222222;
+  font-family: inherit;
+  font-size: 14px;
+}
+
+/* Button */
+
+.general-button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 6px;
+  min-height: 38px;
+  padding: 8px 12px;
+  border: 0;
+  border-radius: 0;
+  background-color: #d80d18;
+  color: #ffffff;
+  font-family: inherit;
+  font-size: 14px;
+  font-weight: 400;
+  cursor: pointer;
+}
+
+.general-button:hover {
+  background-color: #ed1c24;
+}
+
+.general-button:focus-visible {
+  outline: 2px solid #ed1c24;
+  outline-offset: 2px;
+}
+
+.button-icon {
+  color: #ffffff;
+  font-size: 14px;
+}
+
+/* Search bar */
+
+.search-bar {
+  width: 100%;
+  height: 42px;
+  padding: 0 14px;
+  border: 0;
+  border-radius: 0;
+  outline: 0;
+  background-color: #ffffff;
+  color: #222222;
+  font-family: inherit;
+  font-size: 14px;
+}
